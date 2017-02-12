@@ -1,0 +1,4 @@
+#for building the image from dockerfile
+docker build -t docker:latest .
+#for runing the container
+docker run -d -p 7080:7080 --name webserver docker:latest
